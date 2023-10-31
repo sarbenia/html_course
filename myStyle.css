@@ -1,0 +1,111 @@
+h1.title{
+    color:#880000;
+    font-size: 60px;
+    text-decoration: underline;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{padding: 0px;
+    margin: 0px;}
+
+a.top_menu{
+    color: #ffffff;
+    display: inline-block;
+    padding: 20px 40px 20px 40px;
+    background-color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0px 12px 0px 12px;
+}
+a.top_menu:hover{
+    background-color: #e01052;
+}
+
+
+
+p.simple_text{
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0px; margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.close{
+    position: absolute;
+    right: -40px;
+    top:-40px;
+    width:80px; height: 60px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 60px;
+    z-index: 100;
+    padding-top: 20px;
+    border: 1px solid #000;
+}
+
+
+
+
+.container{
+    width:700px;
+    height: 200px;
+    background-color: #e01052;
+    border-radius: 30px;
+    margin: 50px 0px;
+    padding: 50px;
+    position: relative;
+}
+.box{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 50px; left:100px;
+    z-index: 52;
+    background-color: #000;
+}
+
+.box2{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 50px; left:150px;
+    z-index: 53;
+    background-color: #99cc00;
+}
+
+
+.main{
+    width:800px;
+    height: 400px;
+    background-color: #99cc00;
+    margin: 50px 0px;
+    position: relative;
+}
+.submain{
+    position: absolute;
+    width:200px;
+    height: 200px;
+}
+.soldier{
+    width: 100px; height: 100px;
+    position: absolute;
+    left:50%; margin-left: -50px;
+    top: 50%; margin-top: -50px;
+    border-radius: 60px;
+}
+
+.b1{top:0px; left:0px; background-color: #ffffff;}
+.b2{top:0px; left:200px; background-color: #000000;}
+.b3{top:0px; left:400px; background-color: #ffffff;}
+.b4{top:0px; left:600px; background-color: #000000;}
+.b5{top:200px; left:0px; background-color: #000000;}
+.b6{top:200px; left:200px; background-color: #ffffff;}
+.b7{top:200px; left:400px; background-color: #000000;}
+.b8{top:200px; left:600px; background-color: #ffffff;}
+
+.sol_white{background-color: #fff;}
+.sol_black{background-color: #000;}
+
+.img{width: 100%;}
